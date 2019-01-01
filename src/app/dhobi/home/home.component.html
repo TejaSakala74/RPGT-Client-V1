@@ -1,0 +1,105 @@
+<div class="main">
+    <div #TOPS class="subMain" (click)="menuClick(contentTOPS)" [ngClass]="{'subContent': subContent === contentTOPS}">
+        <i class="fa fa-user"></i>
+        <div class="menuTitle">TOPS</div>
+    </div>
+    <div #LAUNDRY class="subMain" (click)="menuClick(contentLAUNDRY)" [ngClass]="{'subContent': subContent === contentLAUNDRY}">
+        <i class="fa fa-user"></i>
+        <div class="menuTitle">LAUNDRY</div>
+    </div>
+    <div #BEDDING class="subMain" (click)="menuClick(contentBEDDING)" [ngClass]="{'subContent': subContent === contentBEDDING}">
+        <i class="fa fa-user"></i>
+        <div class="menuTitle">BEDDING</div>
+    </div>
+    <div #SUITS class="subMain" (click)="menuClick(contentSUITS)" [ngClass]="{'subContent': subContent === contentSUITS}">
+        <i class="fa fa-user"></i>
+        <div class="menuTitle">SUITS</div>
+    </div>
+    <div #TROUSERS class="subMain" (click)="menuClick(contentTROUSERS)" [ngClass]="{'subContent': subContent === contentTROUSERS}">
+        <i class="fa fa-user"></i>
+        <div class="menuTitle">TROUSERS</div>
+    </div>
+    <div #DRESSES class="subMain" (click)="menuClick(contentDRESSES)" [ngClass]="{'subContent': subContent === contentDRESSES}">
+        <i class="fa fa-user"></i>
+        <div class="menuTitle">DRESSES</div>
+    </div>
+    <div #OUTDOOR class="subMain" (click)="menuClick(contentOUTDOOR)" [ngClass]="{'subContent': subContent === contentOUTDOOR}">
+        <i class="fa fa-user"></i>
+        <div class="menuTitle">OUTDOOR</div>
+    </div>
+    <div #ACCESSORIES class="subMain" (click)="menuClick(contentACCESSORIES)" [ngClass]="{'subContent': subContent === contentACCESSORIES}">
+        <i class="fa fa-user"></i>
+        <div class="menuTitle">ACCESSORIES</div>
+    </div>
+    <div #HOME class="subMain" (click)="menuClick(contentHOME)" [ngClass]="{'subContent': subContent === contentHOME}">
+        <i class="fa fa-user"></i>
+        <div class="menuTitle">HOME</div>
+    </div>
+    <div #BUSINESS class="subMain" (click)="menuClick(contentBUSINESS)" [ngClass]="{'subContent': subContent === contentBUSINESS}">
+        <i class="fa fa-user"></i>
+       <div class="menuTitle">BUSINESS</div> 
+    </div>
+</div>
+
+  <div class="content" (swiperight)="myswiperight()" (swipeleft)="myswipeleft()">
+    <div #contentTOPS >
+        <div class="contentBox">
+            TOPS
+            <app-tops></app-tops>
+        </div>
+    </div>
+    <div #contentLAUNDRY>
+        <div class="contentBox">
+            LAUNDRY
+            <app-laundry></app-laundry>
+        </div>
+    </div>
+    <div #contentBEDDING >
+        <div class="contentBox">
+        BEDDING
+        <app-bedding></app-bedding>
+        </div>
+    </div>
+    <div #contentSUITS  >
+        <div class="contentBox">
+        SUITS
+        <app-suits></app-suits>
+        </div>
+    </div>
+    <div #contentTROUSERS >
+        <div class="contentBox">
+        TROUSERS
+        <app-trousers></app-trousers>
+        </div>
+    </div>
+    <div #contentDRESSES >
+        <div class="contentBox">
+        DRESSES
+        <app-dresses></app-dresses>
+        </div>
+    </div>
+    <div #contentOUTDOOR >
+        <div class="contentBox">
+        OUTDOOR
+        <app-outdoor></app-outdoor>
+        </div>
+    </div>
+    <div #contentACCESSORIES >
+        <div class="contentBox">
+        ACCESSORIES
+        <app-accessories></app-accessories>
+        </div>
+    </div>
+    <div #contentHOME >
+        <div class="contentBox">
+        HOME
+        <app-house></app-house>
+        </div>
+    </div>
+    <div #contentBUSINESS >
+        <div class="contentBox">
+        BUSINESS
+        <app-business></app-business>
+        </div>
+    </div>
+  </div>

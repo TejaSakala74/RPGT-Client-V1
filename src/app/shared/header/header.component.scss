@@ -1,0 +1,29 @@
+.header
+{
+    background: #29c9f9;
+    height: 50px;
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+}
+
+.title
+{
+    color: white;
+    font-size: 23px;
+    padding: 6px;
+}
+
+.headerIcons
+{
+    text-align: right;
+    color: white;
+    padding: 15px;
+    i{
+        width: 30px;
+        text-align: center;
+        font-size: 21px;
+        font-weight: 100;
+    }
+}

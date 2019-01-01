@@ -1,0 +1,16 @@
+<a class="btn rounded-btn" [routerLink]="['/home']" (click)="onLoggedin()"> Log in </a>
+
+
+<div *ngIf="app.UID | async as UID ; else login">
+  onLoggedin in {{UID}}
+  <div *ngIf="app.isAdmin | async">
+    sdasdads
+  </div>
+  <div><button (click)="app.logout()">logout</button></div>
+</div>
+<ng-template #login>
+  dsdsdsd<button (click)="app.login()">login</button>
+</ng-template>
+
+
+<button (click)="app.onSignInSubmit()">submit</button>

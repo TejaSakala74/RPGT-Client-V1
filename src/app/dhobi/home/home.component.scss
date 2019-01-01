@@ -1,0 +1,62 @@
+.main
+{
+    text-align: center;
+    padding-top: 50px;
+    display: flex;
+    position: inherit;
+    overflow: auto;
+    height: 110px;
+    background: #29c9f9;
+    box-shadow: 0 -8px 20px 0 rgba(0, 0, 0, 0.2), 0 2px 12px 0 rgba(0, 0, 0, 0.19);
+}
+
+.main::-webkit-scrollbar {
+    display: none;
+  }
+
+.subMain
+{
+    text-align: center;
+    font-family: sans-serif;
+    font-weight: 600;
+    font-size: 13px;
+    padding: 8px 0px;
+    color: #e0e0e0;
+    i{
+        padding: 10px;
+    }
+}
+
+.menuTitle
+{
+    text-align: center;
+    width: 85px;
+    font-size: 10px;
+    letter-spacing: 1px;
+    font-weight: 600;
+}
+
+.content
+{
+    text-align: center;
+    display: flex;
+    position: inherit;
+    overflow: auto;
+}
+
+.content::-webkit-scrollbar {
+    display: none;
+  }
+
+
+.contentBox
+{
+    min-height: 200px;
+    width: 100vw;
+}
+
+.subContent
+{
+    color: white;
+    border-bottom: 2px solid #f8f9fa;
+}

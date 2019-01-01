@@ -1,0 +1,39 @@
+<div class="ui-g navmenu">
+ <div class="ui-g-12" [ngClass]="{'itemSelected': tempData==='L'}" [routerLink]="['/laundry']" (click)="itemClick('L')">
+  <i class="fa fa-shopping-basket"></i>
+  Laundry
+</div>
+ <div class="ui-g-12" [ngClass]="{'itemSelected': tempData==='T'}" [routerLink]="['/tops']" (click)="itemClick('T')">
+  <i class="fa fa-tshirt"></i>
+  Tops
+</div>
+ <div class="ui-g-12" [ngClass]="{'itemSelected': tempData==='B'}" [routerLink]="['/beddings']" (click)="itemClick('B')">
+  <i class="fa fa-bed"></i>
+  Beddings
+</div>
+ <div class="ui-g-12" [ngClass]="{'itemSelected': tempData==='S'}" [routerLink]="['/suits']" (click)="itemClick('S')">
+  <i class="fa fa-user-tie"></i>
+  Suits
+</div>
+ <div class="ui-g-12" [ngClass]="{'itemSelected': tempData==='K'}" [routerLink]="['/knitwear']" (click)="itemClick('K')">
+  KnitWear
+</div>
+ <div class="ui-g-12" [ngClass]="{'itemSelected': tempData==='TT'}" [routerLink]="['/trouser']" (click)="itemClick('TT')">
+  Trousers
+</div>
+ <div class="ui-g-12" [ngClass]="{'itemSelected': tempData==='D'}" [routerLink]="['/dresses']" (click)="itemClick('D')">
+  Dresses
+</div>
+ <div class="ui-g-12" [ngClass]="{'itemSelected': tempData==='O'}" [routerLink]="['/outdoor']" (click)="itemClick('O')">
+  Outdoor
+</div>
+ <div class="ui-g-12" [ngClass]="{'itemSelected': tempData==='A'}" [routerLink]="['/accessories']" (click)="itemClick('A')">
+  Accessories
+</div>
+ <div class="ui-g-12" [ngClass]="{'itemSelected': tempData==='H'}" [routerLink]="['/home']" (click)="itemClick('H')">
+  Home
+</div>
+ <div class="ui-g-12" [ngClass]="{'itemSelected': tempData==='BB'}" [routerLink]="['/business']" (click)="itemClick('BB')">
+  Business
+</div>
+</div>

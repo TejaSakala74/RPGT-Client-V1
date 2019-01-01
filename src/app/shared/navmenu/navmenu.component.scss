@@ -1,0 +1,25 @@
+.navmenu
+{
+    position: fixed;
+    top: 70px;
+    left: 0;
+    width: 210px;
+    bottom: 70px;
+    //background: black;
+    color: white;
+    div{
+        color: #96a4ab;
+        font-size: 24px;
+        padding: 8px 36px;
+        line-height: 1;
+        border-bottom: 0.5px solid #d9ddde;
+    }
+    div:hover{
+        background: #607D8B;
+        color: white
+    }
+}
+.itemSelected{
+    background: #607D8B;
+    color: white!important;
+}
